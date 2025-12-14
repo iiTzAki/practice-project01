@@ -11,53 +11,56 @@
     <!--Font Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,586;1,586&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul class="nav-links">
-            <li>
-                <a href="#">Link One</a>
-            </li>
-            <li>
-                <a href="#">Link Two</a>
-            </li>
-            <li>
-                <a href="#">Link Three</a>
-            </li>
-        </ul>
+        <div class="navbar">
+            <div class="logo">Header Logo</div>
+
+            <ul>
+                <li>
+                    <a href="#">Link One</a>    
+                </li>
+                <li>
+                    <a href="#">Link Two</a>
+                </li>
+                <li>
+                    <a href="#">Link Three</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <div class="section">
-        <div>
+    <div class="hero-section">
+        <div class="hero-left">
             <h1 class="heading">This website is awesome</h1>
             <p class="subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
             <button class="button">Sign up</button>
         </div>
-        <div>
+        <div class="hero-right">
             <img src="Images/Blue-Mountain-Scenery.jpg" alt="Blue Mountain Scenery" width="500px" class="picture"> 
         </div>
     </div>
 
-    <div class="grid-section">
+    <div class="card-section">
         <div class="information">Some Random Information</div>
-        <div class="grid-container">
+        <div class="wrapper-container">
             <div class="grid-box">
-                <div class="Box">Box 1</div>
+                <div class="card"></div>
                 <div class="box-content">this is some subtext under an illustration or image</div>
             </div>
             <div class="grid-box">
-                <div class="Box">Box 2</div>
+                <div class="card"></div>
                 <div>this is some subtext under an illustration or image</div>
             </div>
             <div class="grid-box">
-                <div class="Box">Box 3</div>
+                <div class="card"></div>
                 <div>this is some subtext under an illustration or image</div>
             </div>
             <div class="grid-box">
-                <div class="Box">Box 4</div>
+                <div class="card"></div>
                 <div>this is some subtext under an illustration or image</div>
             </div>
         </div>
@@ -74,12 +77,12 @@
     </div>
 
     <div class="cta-container">
-        <div class="cta">
+        <div class="cta-box">
             <div>
-                <div>Call to action! It's time!</div>
-                <div>Sign up for our product by clicking that button right over there!</div>
+                <div class="cta-heading">Call to action! It's time!</div>
+                <div class="cta-text">Sign up for our product by clicking that button right over there!</div>
             </div>
-            <button>Sign up</button>
+            <button class="cta-button">Sign up</button>
         </div>
     </div>
 
