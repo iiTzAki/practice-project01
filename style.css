@@ -64,6 +64,11 @@ a {
     align-items: center;
 }
 
+.hero-right img {
+    width: 100%;
+    max-width: 450px;
+}
+
 .heading {
     font-size: 48px;
     color: #F9FAF8;
