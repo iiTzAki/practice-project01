@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: "Roboto";
     margin: 0;
@@ -42,7 +37,6 @@ a {
 
 .logo {
     font-size: 24px;
-    margin-right: 14px;
 }
 
 /*Hero*/
@@ -96,8 +90,9 @@ a {
 
 /*Grid-Section*/
 
-.card-section {
-    padding: 50px 25%;
+.info-section {
+    padding: 50px 10%;
+    text-align: center;
 }
 
 .information {
@@ -111,43 +106,39 @@ a {
 .wrapper-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 50px;
     text-align: center;
-    flex: wrap;
-}
-
-.grid-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 200px; 
+    flex-wrap: wrap;
 }
 
 .card {
-    border: 2px solid black;
-    height: 150px;
-    width: 150px;
+    max-width: 165px;
+}
+
+.box {
+    height: 160px;
+    width: 160px;
     border-radius: 20px;
     border-width: 3px;
-    border-color: #3882F6;;
+    border: 3px solid #3882F6;;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+}
+
+.text {
+    font-size: 14px;
 }
 
 /*Quote*/
 
 .quote-container {
-    height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 50px 15%;
+    padding: 60px 15%;
 }
 
 .quote-text {
@@ -157,18 +148,17 @@ a {
 }
 
 .author {
-    display: flex;
-    justify-content: flex-end;
     font-size: 20px;
     color: rgb(136, 128, 128);
     font-weight: 300;
     margin: 10px 20px;
+    text-align: right;
 }
 
 /*CTA*/
 
 .cta-container {
-    padding: 100px;
+    padding: 10% 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,14 +173,17 @@ a {
     border-radius: 5px;
     padding: 30px 90px;
     color: white;
+    text-align: left;
 }
 
 .cta-heading {
     font-size: 19px;
+    margin: 5px 0;
 }
 
 .cta-text {
     font-size: 15px;
+    margin: 0;
 }
 
 .cta-button {
